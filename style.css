@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #c4f8c8;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.logo > img {
+  width: 400px;
+  height: auto;
+}
+
+.logo {
+  padding: 0 0.2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #071e22;
+}
+
+.main-body {
+  display: flex;
+  justify-content: space-around;
+  background-color: #071e22;
+  color: #fff;
+  padding: 60px;
+}
+
+.logo > h2 {
+  color: white;
+  text-align: left;
+  font-style: inherit;
+  letter-spacing: 0.5rem;
+}
+
+nav.links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 20px;
+  gap: 9px;
+  letter-spacing: 0.1rem;
+}
+
+a {
+  transition: all ease-in-out 300ms;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.person-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #071e22;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  padding: 2rem;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e799d;
+  color: #fff;
+  margin: 0;
+  padding: 5px 18px;
+  border-radius: 15px;
+}
+
+#Upper {
+  display: flex;
+  border-color: #0e799d;
+}
+
+.motivation {
+  font-size: 0.6em;
+  padding: 60px auto;
+  background-color: #679289;
+}
+
+#Quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+  font-style: italic;
+  padding: 80px;
+}
+
+.end-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  text-align: left;
+  margin: 48px 40px;
+  background-color: #1d7874;
+  color: #fff;
+  border-radius: 4px;
+}
+
+#Lower {
+  border-color: #fff;
+  background-color: #1d7874;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  padding: 10px;
+  margin: 15px;
+  width: 450px;
+  height: 460px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 4px;
+  color: #071e22;
+}
+
+.sub-header > div {
+  display: flex;
+  width: 500px;
+  height: auto;
+  padding-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: width 0.5s, height 0.5s;
+  backface-visibility: hidden;
+  background-color: #c4f8c8;
+  border-radius: 10px;
+}
+
+.image:hover {
+  width: 260px;
+  height: 385px;
+}
+
+div.name > a {
+  color: #071e22;
+  padding-top: 2px;
+}
+
+.name {
+  padding: 10px;
+}
+
+.semi-body {
+  background-color: #c4f8c8;
+  padding: 0;
+  margin: 0;
+}
+
+.semi-body > h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+.testi {
+  display: flex;
+  margin: 180px 50px;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #071e22 solid 2px;
+  font-size: larger;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 15px;
+  gap: 15px;
+}
+
+.container {
+  border: #071e22 solid 2px;
+  background-color: #18635f;
+}
+
+button.submit {
+  padding: 10px;
+  background-color: #18635f;
+  color: white;
+  border-radius: 40%;
+  border-color: white;
+}
+
+label {
+  color: #fff;
+}
+
+div.about {
+  padding: 20px;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contacts {
+  position: absolute;
+  top: 65px;
+  left: 550px;
+  background-color: #679289;
+  color: #fff;
+  height: 500px;
+  width: 380px;
+  text-align: center;
+  padding-top: 128px;
+  border-radius: 12%;
+  margin: 10px;
+  font-size: 17px;
+}
+
+.thanks {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 18px;
+  color: #071e22;
+}
+
+.thanks > a {
+  color: #291414;
+  text-decoration: underline;
+  text-decoration-color: #291414;
+}
+
+
+hr {
+  width: 700px;
+}
